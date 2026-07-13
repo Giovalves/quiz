@@ -1,0 +1,242 @@
+[
+  {
+    "id": "iniciante-01",
+    "level": "iniciante",
+    "category": "negocios",
+    "statement": "Claude Code é uma ferramenta de linha de comando (CLI) da Anthropic que auxilia tarefas de desenvolvimento de software usando IA.",
+    "answer": true,
+    "explanation": "Correto: Claude Code é a CLI oficial da Anthropic, criada para ajudar em tarefas de programação diretamente no terminal."
+  },
+  {
+    "id": "iniciante-02",
+    "level": "iniciante",
+    "category": "negocios",
+    "statement": "O Claude Code só consegue gerar código novo, sem capacidade de explicar, revisar ou depurar código já existente.",
+    "answer": false,
+    "explanation": "Falso: além de gerar código, o Claude Code também explica trechos existentes, revisa mudanças e ajuda a depurar bugs."
+  },
+  {
+    "id": "iniciante-03",
+    "level": "iniciante",
+    "category": "negocios",
+    "statement": "O Claude Code roda no terminal e pode ler e editar arquivos do projeto onde está sendo executado, mediante permissão do usuário.",
+    "answer": true,
+    "explanation": "Correto: o Claude Code opera sobre os arquivos do diretório do projeto, sempre respeitando as permissões configuradas pelo usuário."
+  },
+  {
+    "id": "iniciante-04",
+    "level": "iniciante",
+    "category": "negocios",
+    "statement": "Para usar o Claude Code é obrigatório programar em uma única linguagem específica, como Python.",
+    "answer": false,
+    "explanation": "Falso: o Claude Code é agnóstico quanto à linguagem de programação e pode ajudar em projetos de diversas tecnologias."
+  },
+  {
+    "id": "iniciante-05",
+    "level": "iniciante",
+    "category": "negocios",
+    "statement": "O Claude Code pode ajudar em tarefas como corrigir bugs, escrever testes, refatorar código e explicar trechos complexos.",
+    "answer": true,
+    "explanation": "Correto: essas são justamente algumas das tarefas de desenvolvimento mais comuns em que o Claude Code auxilia."
+  },
+  {
+    "id": "iniciante-06",
+    "level": "iniciante",
+    "category": "negocios",
+    "statement": "O Claude Code elimina totalmente a necessidade de revisão humana do código antes de ser publicado em produção.",
+    "answer": false,
+    "explanation": "Falso: mesmo com a ajuda do Claude Code, a revisão humana continua sendo uma boa prática antes de publicar código em produção."
+  },
+  {
+    "id": "iniciante-07",
+    "level": "iniciante",
+    "category": "comandos",
+    "statement": "No Claude Code, comandos que começam com barra, como /help, são chamados de slash commands.",
+    "answer": true,
+    "explanation": "Correto: comandos iniciados por \"/\" são conhecidos como slash commands e executam ações especiais dentro da sessão."
+  },
+  {
+    "id": "iniciante-08",
+    "level": "iniciante",
+    "category": "comandos",
+    "statement": "O comando /clear em uma sessão do Claude Code limpa o histórico da conversa atual.",
+    "answer": true,
+    "explanation": "Correto: /clear reinicia o histórico da conversa, começando uma nova sessão sem o contexto anterior."
+  },
+  {
+    "id": "iniciante-09",
+    "level": "iniciante",
+    "category": "comandos",
+    "statement": "O comando /compact serve para apagar permanentemente todos os arquivos do projeto.",
+    "answer": false,
+    "explanation": "Falso: /compact resume/compacta o histórico da conversa para economizar contexto, e não apaga arquivos do projeto."
+  },
+  {
+    "id": "iniciante-10",
+    "level": "iniciante",
+    "category": "comandos",
+    "statement": "É possível interromper o Claude Code enquanto ele está executando uma ação, por exemplo pressionando Esc.",
+    "answer": true,
+    "explanation": "Correto: o usuário pode interromper uma ação em andamento a qualquer momento, por exemplo com a tecla Esc."
+  },
+  {
+    "id": "intermediario-01",
+    "level": "intermediario",
+    "category": "comandos",
+    "statement": "O comando /init do Claude Code ajuda a gerar ou atualizar um arquivo CLAUDE.md com informações sobre o projeto.",
+    "answer": true,
+    "explanation": "Correto: /init analisa o repositório e cria (ou atualiza) um CLAUDE.md com orientações para sessões futuras."
+  },
+  {
+    "id": "intermediario-02",
+    "level": "intermediario",
+    "category": "comandos",
+    "statement": "O comando /model permite trocar o modelo Claude usado na sessão atual do Claude Code.",
+    "answer": true,
+    "explanation": "Correto: /model é usado para selecionar ou alternar entre os modelos Claude disponíveis durante a sessão."
+  },
+  {
+    "id": "intermediario-03",
+    "level": "intermediario",
+    "category": "comandos",
+    "statement": "O Claude Code não possui nenhum recurso para ajudar na revisão de Pull Requests do GitHub.",
+    "answer": false,
+    "explanation": "Falso: o Claude Code oferece comandos e fluxos voltados à revisão de Pull Requests e de diffs de código."
+  },
+  {
+    "id": "intermediario-04",
+    "level": "intermediario",
+    "category": "comandos",
+    "statement": "O Claude Code mantém um arquivo de configuração de permissões que pode definir quais ações são permitidas automaticamente.",
+    "answer": true,
+    "explanation": "Correto: as configurações de permissions definem regras (como allow, deny ou ask) para as ações que a ferramenta pode executar."
+  },
+  {
+    "id": "intermediario-05",
+    "level": "intermediario",
+    "category": "comandos",
+    "statement": "O comando /resume permite retomar uma conversa anterior do Claude Code.",
+    "answer": true,
+    "explanation": "Correto: /resume lista e permite continuar sessões anteriores em vez de começar uma conversa do zero."
+  },
+  {
+    "id": "intermediario-06",
+    "level": "intermediario",
+    "category": "comandos",
+    "statement": "Todas as ações do Claude Code, incluindo navegar e editar arquivos locais, exigem uma conexão constante com a internet.",
+    "answer": false,
+    "explanation": "Falso: operações no sistema de arquivos local não exigem internet; a conexão é necessária principalmente para as chamadas ao modelo de IA."
+  },
+  {
+    "id": "intermediario-07",
+    "level": "intermediario",
+    "category": "integracoes",
+    "statement": "O Claude Code possui integração com editores como VS Code, permitindo usá-lo diretamente na IDE.",
+    "answer": true,
+    "explanation": "Correto: existe uma extensão de IDE que integra o Claude Code ao fluxo de trabalho do VS Code."
+  },
+  {
+    "id": "intermediario-08",
+    "level": "intermediario",
+    "category": "integracoes",
+    "statement": "O Claude Code pode ser integrado a fluxos de CI/CD, como GitHub Actions, para automatizar tarefas de desenvolvimento.",
+    "answer": true,
+    "explanation": "Correto: há suporte para usar o Claude Code em pipelines de automação, como GitHub Actions."
+  },
+  {
+    "id": "intermediario-09",
+    "level": "intermediario",
+    "category": "integracoes",
+    "statement": "O Claude Code funciona apenas dentro de um navegador web e não pode ser usado a partir do terminal.",
+    "answer": false,
+    "explanation": "Falso: o Claude Code é primariamente uma ferramenta de terminal, e também está disponível em outras superfícies, como IDEs e aplicativo desktop."
+  },
+  {
+    "id": "intermediario-10",
+    "level": "intermediario",
+    "category": "integracoes",
+    "statement": "Existem extensões/plugins do Claude Code para IDEs como VS Code e JetBrains.",
+    "answer": true,
+    "explanation": "Correto: o Claude Code oferece integrações oficiais para IDEs, incluindo VS Code e ferramentas JetBrains."
+  },
+  {
+    "id": "avancado-01",
+    "level": "avancado",
+    "category": "avancado",
+    "statement": "MCP (Model Context Protocol) é um protocolo aberto que permite ao Claude Code se conectar a ferramentas e fontes de dados externas.",
+    "answer": true,
+    "explanation": "Correto: o MCP é um protocolo aberto que padroniza a conexão entre assistentes de IA e ferramentas/fontes de dados externas."
+  },
+  {
+    "id": "avancado-02",
+    "level": "avancado",
+    "category": "avancado",
+    "statement": "Hooks no Claude Code permitem executar comandos automaticamente em resposta a eventos, como antes ou depois do uso de uma ferramenta.",
+    "answer": true,
+    "explanation": "Correto: hooks são pontos de extensão que disparam comandos em eventos como PreToolUse, PostToolUse, entre outros."
+  },
+  {
+    "id": "avancado-03",
+    "level": "avancado",
+    "category": "avancado",
+    "statement": "Subagents são agentes especializados que o Claude Code pode invocar para executar tarefas específicas, cada um com seu próprio contexto.",
+    "answer": true,
+    "explanation": "Correto: subagents permitem delegar tarefas específicas a agentes com contexto e ferramentas próprias, mantendo a conversa principal mais enxuta."
+  },
+  {
+    "id": "avancado-04",
+    "level": "avancado",
+    "category": "avancado",
+    "statement": "Skills no Claude Code são bibliotecas de terceiros que substituem completamente o modelo de linguagem usado nas respostas.",
+    "answer": false,
+    "explanation": "Falso: skills são pacotes de instruções e capacidades especializadas que o agente pode carregar, mas não substituem o modelo de linguagem."
+  },
+  {
+    "id": "avancado-05",
+    "level": "avancado",
+    "category": "avancado",
+    "statement": "O sistema de permissions do Claude Code permite configurar regras de allow/deny/ask para controlar quais ações a ferramenta pode executar automaticamente.",
+    "answer": true,
+    "explanation": "Correto: as permissions definem, por exemplo, quais comandos podem rodar automaticamente e quais exigem confirmação do usuário."
+  },
+  {
+    "id": "avancado-06",
+    "level": "avancado",
+    "category": "avancado",
+    "statement": "O Claude Agent SDK permite que desenvolvedores construam seus próprios agentes personalizados usando a mesma infraestrutura por trás do Claude Code.",
+    "answer": true,
+    "explanation": "Correto: o Agent SDK expõe a infraestrutura de agentes da Anthropic para que desenvolvedores criem agentes próprios."
+  },
+  {
+    "id": "avancado-07",
+    "level": "avancado",
+    "category": "integracoes",
+    "statement": "Claude Code pode ser usado programaticamente através do Claude Agent SDK para criar agentes customizados fora do CLI interativo.",
+    "answer": true,
+    "explanation": "Correto: o Agent SDK permite construir agentes customizados que reaproveitam a mesma base do Claude Code, sem depender da CLI interativa."
+  },
+  {
+    "id": "avancado-08",
+    "level": "avancado",
+    "category": "integracoes",
+    "statement": "Servidores MCP podem expor tanto ferramentas (tools) quanto recursos (resources) que o Claude Code pode utilizar.",
+    "answer": true,
+    "explanation": "Correto: um servidor MCP pode expor tools, resources e prompts, que o Claude Code consegue descobrir e usar."
+  },
+  {
+    "id": "avancado-09",
+    "level": "avancado",
+    "category": "integracoes",
+    "statement": "A única forma de integrar o Claude Code a outros sistemas é por meio de plugins oficiais da Anthropic, sem suporte a protocolos abertos.",
+    "answer": false,
+    "explanation": "Falso: o MCP é um protocolo aberto, o que permite integrações com servidores de terceiros e não apenas plugins oficiais."
+  },
+  {
+    "id": "avancado-10",
+    "level": "avancado",
+    "category": "integracoes",
+    "statement": "O Claude Code pode ser configurado para rodar em ambientes de automação, como pipelines de GitHub Actions, sem interação manual a cada etapa.",
+    "answer": true,
+    "explanation": "Correto: em pipelines de CI/CD, o Claude Code pode ser configurado para operar de forma automatizada, sem intervenção manual constante."
+  }
+]
